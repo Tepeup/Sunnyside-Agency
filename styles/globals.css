@@ -14,3 +14,41 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Header Header Header Header"
+    "One One Two Two"
+    "Three Three Four Four"
+    "Five Five Six Six"
+    "Testimonials Testimonials Testimonials Testimonials"
+    "Seven Seven Eight Eight"
+    "Footer Footer Footer Footer";
+}
+
+.Header { grid-area: Header; }
+
+.Testimonials { grid-area: Testimonials; }
+
+.Footer { grid-area: Footer; }
+
+.One { grid-area: One; }
+
+.Two { grid-area: Two; }
+
+.Three { grid-area: Three; }
+
+.Four { grid-area: Four; }
+
+.Five { grid-area: Five; }
+
+.Six { grid-area: Six; }
+
+.Seven { grid-area: Seven; }
+
+.Eight { grid-area: Eight; }
