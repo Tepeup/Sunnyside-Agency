@@ -10,6 +10,14 @@ export default function Home() {
         <title>Sunnyside Agency</title>
         <meta name="description" content="Sunnyside Agency" />
         <link rel="icon" href="/images/favicon-32x32.png" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Barlow"
+          rel="stylesheet"
+        ></link>
+        <link
+          href="https://fonts.googleapis.com/css?family=Fraunces"
+          rel="stylesheet"
+        ></link>
       </Head>
       <nav>
         <Navbar />
