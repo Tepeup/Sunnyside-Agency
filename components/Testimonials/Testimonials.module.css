@@ -1,0 +1,29 @@
+.testimonialCard{
+    font-weight: bold;
+}
+.testimonialQuote{
+    color:rgb(0,0,0,0.5);
+
+    
+}
+
+.testimonialTitle{
+    margin:2em
+}
+.testimonialName{
+    font-family: Fraunces;
+    
+}
+
+
+.testimonialJob{
+    color:rgb(0,0,0,0.3);
+    font-size:0.8em;
+    margin:1em;
+  
+}
+.testimonialImage{
+    height: 50px;
+    border-radius: 100%;
+    margin:2em
+}
