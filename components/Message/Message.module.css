@@ -66,6 +66,3 @@ justify-content: center;
             
 }
 
-@media only screen and (max-width: 281px) {
-    .messageBody{width:200px}
-}
